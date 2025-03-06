@@ -7,12 +7,12 @@ variable "AMI-ID" {
 variable "INSTANCE-TYPE" {
         description = "Value of instance type"
         type = string
-        default = "t2.micro""
+        default = "t2.micro"
 }
 
 variable "KEY-NAME" {
     description = "Key Name"
     type = string
-    default = "NewKey""
+    default = "NewKey"
   
 }
